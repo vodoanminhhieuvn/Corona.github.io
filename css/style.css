@@ -1,0 +1,282 @@
+body,
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 16px;
+  color: #474747;
+}
+
+h1,
+h2,
+h3,
+nav,
+.title {
+  font-family: "Economica", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 0 0 1em;
+}
+
+h2 {
+  font-size: 1.6rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+a {
+  color: inherit;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+p {
+  margin: 0.5em 0;
+  line-height: 1.3em;
+}
+
+.fixed-width {
+  width: 960px;
+  margin: 0 auto;
+}
+/* Clear-Fixed Hack */
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+.data-block {
+  margin-bottom: 3rem;
+}
+
+/* ################################## */
+/*              Fonts                 */
+/* ################################## */
+
+.fas {
+  float: left;
+  margin-right: 6%;
+  color: #9a9a9a;
+}
+
+/* ################################## */
+/*              Header                */
+/* ################################## */
+.page-header::before {
+  content: " ";
+  display: block;
+  height: 5px;
+  background: url(../images/2014-12-10_00-35-38__pattern.png);
+}
+
+.page-header {
+  padding-bottom: 2em;
+}
+
+.page-header > div {
+  position: relative;
+}
+
+.page-header .logo {
+  font-family: "Pacifico", cursive;
+  font-size: 3.5em;
+  position: absolute;
+  bottom: 0;
+}
+
+.page-header nav {
+  float: right;
+  padding-top: 2em;
+}
+/* NEW_ONE */
+.page-header nav li {
+  color: #a5a5a5;
+  float: left;
+  margin-left: 3em;
+}
+
+/* OLD-ONE
+    .page-header nav li {
+        color: #a5a5a5;
+        float: left;
+        margin-right: 3em;
+    }
+    
+    .page-header nav li:last-child {
+        margin-right: 0;
+    }
+    FUCKING IDIOT :>
+     */
+
+.page-header nav li em {
+  color: #474747;
+  display: block;
+  font-size: 1.6rem;
+}
+
+/* ################################## */
+/*              Section               */
+/* ################################## */
+/*              Main-visual           */
+
+.main-visual img {
+  display: block;
+}
+.main-visual figcaption {
+  background: #f7f7f7;
+  padding: 0.5em 1em;
+}
+
+.main-visual figcaption > strong {
+  font-size: 1.4em;
+}
+
+/* ################################## */
+/*              Claims                */
+
+.claim {
+  float: left;
+  width: 25%;
+  margin-left: 7%;
+}
+
+.claim header > i {
+  float: left;
+  font-size: 2em;
+}
+
+.claim > p {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 2em;
+  letter-spacing: 10px;
+}
+.claim .infectors {
+  color: #898888;
+}
+
+.claim .deads {
+  color: #c64e66;
+}
+
+.claim .recovers {
+  color: #00bdaa;
+}
+
+/* ################################## */
+/*              Portfolio             */
+
+.portfolio {
+  position: relative;
+}
+
+.portfolio:before {
+  content: " ";
+  display: block;
+  height: 30px;
+  background: url(../images/2014-12-10_00-35-38__pattern.png);
+  margin-bottom: 2em;
+}
+
+.portfolio_footer {
+  color: #9b9b9b;
+  font-size: 1rem;
+  height: 70px;
+}
+
+.portfolio .title-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.portfolio .title-wrapper h2 {
+  display: inline-block;
+  background-color: #ffff;
+  padding: 0.1em;
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+  font-size: 1.7rem;
+}
+
+.country {
+  float: left;
+  width: 20%;
+  margin-left: 5%;
+  text-align: center;
+}
+
+.country header i,
+h2 {
+  color: #363636;
+}
+
+.country header h2 {
+  font-size: 2rem;
+}
+
+.country header > i {
+  font-size: 2rem;
+}
+
+.country .information div > i {
+  font-size: 1.5rem;
+}
+
+.country .deads {
+  color: #c64e66;
+}
+
+.country .recovers {
+  color: #00bdaa;
+}
+
+/* ################################## */
+/*              Footer                */
+/* ################################## */
+
+.page-footer::before {
+  content: " ";
+  display: block;
+  height: 5px;
+  background: url(../images/2014-12-10_00-35-38__pattern.png) left top repeat-x;
+}
+
+.page-footer {
+  background-color: #f9f9f9;
+  color: #9b9b9b;
+  font-size: 1rem;
+  height: 70px;
+}
+
+.page-footer .copyright {
+  float: left;
+}
+
+.page-footer .credits {
+  float: right;
+}
+
+.page-footer-content {
+  padding: 1em 0;
+}
